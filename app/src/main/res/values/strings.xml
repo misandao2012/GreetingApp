@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GreetingApp</string>
+    <string name="welcome_lbl">Welcome to the Android Challenge</string>
+    <string name="sign_up_lbl">SIGN UP</string>
+    <string name="email_address_lbl">Email Address</string>
+    <string name="first_name_lbl">First Name</string>
+    <string name="last_name_lbl">Last Name</string>
+    <string name="email_invalid">Email entered is invalid</string>
+    <string name="no_network">No Internet connection</string>
+    <string name="fill_all_infor">Please fill all the information</string>
+    <string name="alert_lbl">Alert</string>
+    <string name="about_lbl">About</string>
+    <string name="app_version_lbl">Application version &lt;%s&gt;</string>
+    <string name="app_author_lbl">Author &lt;%s&gt;</string>
+    <string name="author_name">Jian Zhang</string>
+    <string name="request_location_permission">Please give the location permission for the App</string>
+    <string name="alert_logout">Are you sure you want to logout?</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appDefaultColor">#012639</color>
+    <color name="appTextDefaultColor">#76C4D5</color>
+    <color name="menuBackColor">#081A24</color>
+    <color name="commonGray">#898989</color>
+    <color name="menuLblColor">#93CDC3</color>
+    <color name="editTextBckColor">#445C62</color>
+    <color name="address_layout_bkg">#363636</color>
+</resources>

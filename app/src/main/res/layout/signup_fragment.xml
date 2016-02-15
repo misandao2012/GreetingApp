@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appDefaultColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/sign_up_lbl"
+            android:textColor="@color/appTextDefaultColor"
+            android:textSize="30sp" />
+
+        <!-- Dummy item to prevent EditText from receiving focus -->
+        <View
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/CommonEditText"
+            android:hint="@string/email_address_lbl"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/et_firstName"
+            style="@style/CommonEditText"
+            android:hint="@string/first_name_lbl"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/et_lastName"
+            style="@style/CommonEditText"
+            android:hint="@string/last_name_lbl"
+            android:inputType="textCapWords" />
+
+        <ImageButton
+            android:id="@+id/btn_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_selector_go" />
+
+
+    </LinearLayout>
+</ScrollView>

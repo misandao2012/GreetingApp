@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/appDefaultColor</item>
+        <item name="colorPrimaryDark">@color/appDefaultColor</item>
+        <item name="colorAccent">@color/appDefaultColor</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="CommonEditText" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@color/editTextBckColor</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/appTextDefaultColor</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>
